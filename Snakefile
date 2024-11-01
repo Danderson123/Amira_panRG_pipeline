@@ -11,7 +11,7 @@ import json
 random.seed(10)
 # get the list of all files in the directory
 train_files = glob.glob(os.path.join(config["training_assembly_directory"], "*"))
-test_files = []
+test_files = glob.glob(os.path.join(config["testing_assembly_directory"], "*"))
 input_files = train_files + test_files
 
 # specify the output directory
@@ -56,7 +56,7 @@ rule run_poppunk:
     resources:
         mem_mb=lambda wildcards, attempt: 30000 * attempt
     conda:
-        "env/poppunk_env.yaml"
+        "envs/poppunk.yaml"
     shell:
         """
         if [ {params.skip_poppunk} != "True" ] && [ {params.skip_poppunk} != True ]; then
@@ -80,6 +80,7 @@ checkpoint subsample_by_poppunk_cluster:
             os.mkdir(output[0])
         # skip subsampling if specified
         if params.skip_poppunk == "True" or params.skip_poppunk == True:
+            print(input_files)
             for f in input_files:
                 shell(f"cp {f} {output[0]}")
                 if ".gz" in f and not os.path.exists(f.replace(".gz", "")):
@@ -185,7 +186,7 @@ rule make_AMR_gff:
             with open(os.path.join(output_dir, "AMR_calls.json"), "w") as o:
                 o.write(json.dumps(amr_calls))
         # convert the FASTA to a GFF
-        shell(f'python3 /nfs/research/zi/dander/general_bioinformatics_scripts/convert_fasta_to_gff.py {os.path.join(output_dir, "AMR_alleles.fa")} {output[0]}')
+        shell(f'python3 software/convert_fasta_to_gff.py {os.path.join(output_dir, "AMR_alleles.fa")} {output[0]}')
 
 rule make_plasmid_gene_gff:
     input:
@@ -196,7 +197,7 @@ rule make_plasmid_gene_gff:
     resources:
         mem_mb=lambda wildcards, attempt: 10000, threads=1
     shell:
-       "python3 /nfs/research/zi/dander/general_bioinformatics_scripts/convert_fasta_to_gff.py {input} {output}"
+       "python3 software/convert_fasta_to_gff.py {input} {output}"
 
 rule run_bakta:
     input:
@@ -208,13 +209,9 @@ rule run_bakta:
     threads: 1
     resources:
         mem_mb=lambda wildcards, attempt: 20000 * attempt, threads=1
+    singularity: "docker://oschwengers/bakta:latest"
     shell:
-        "singularity run software/bakta.sif --db {params.bakta_db} --threads {threads} --output {output} {input}"
-    #run:
-    #   to_copy = os.path.join("/hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG_l_0/bakta_assemblies",
-    #                   os.path.basename(output[0]))
-    #   out = os.path.dirname(output[0])
-    #   shell(f"cp -r {to_copy} {out}")
+        "bakta --db {params.bakta_db} --threads {threads} --output {output} {input}"
 
 def get_samples():
     # This function should return a list of all samples that are processed by 'run_bakta'
@@ -317,6 +314,8 @@ rule run_panaroo:
     threads: config["threads"]
     resources:
 	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"]
+    conda:
+        "envs/panaroo.yaml"
     shell:
         "panaroo --clean-mode sensitive --refind-mode off --remove-invalid-genes -c {params.identity} --len_dif_percent {params.len_dif_percent} --length_outlier_support_proportion {params.length_outlier_support_proportion} --merge_paralogs -i {input} -o {output} --threads {threads}"
 
@@ -329,10 +328,7 @@ rule get_panaroo_alignments:
     resources:
 	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"]
     shell:
-        #"panaroo-msa -o {input} -a pan --aligner mafft -t {threads}"
-        #"python3 /hps/nobackup/iqbal/dander/amira_panRG_pipeline/software/panaroo/panaroo-msa-runner.py -o {input} -a pan --aligner mafft -t {threads}"
-        "mv /hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG_plasmid_and_PAD_genes/panaroo_output/previous_aligned_gene_sequences /hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG_plasmid_and_PAD_genes/panaroo_output/aligned_gene_sequences"
-        #"touch {output}"
+        "panaroo-msa -o {input} -a pan --aligner mafft -t {threads}"
 
 checkpoint qc_panaroo_alignments:
     input:
@@ -517,7 +513,7 @@ rule build_pandora_index:
     resources:
         mem_mb=lambda wildcards, attempt: 30000 * attempt, threads=16
     params:
-        pandora="/hps/nobackup/iqbal/dander/Escherichia_coli_panRG_c_0.8_l_0_train_AMR_alleles_removed/software/pandora-linux-precompiled-v0.12.0-alpha.0",
+        pandora="software/pandora-linux-precompiled-v0.12.0-alpha.0",
         kmer_size=15,
         window_size=5
     shell:
