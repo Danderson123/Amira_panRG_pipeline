@@ -11,7 +11,6 @@ import json
 random.seed(10)
 # get the list of all files in the directory
 train_files = glob.glob(os.path.join(config["training_assembly_directory"], "*"))
-#test_files = glob.glob(os.path.join(config["testing_assembly_directory"], "*"))
 test_files = []
 input_files = train_files + test_files
 

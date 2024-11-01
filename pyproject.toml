@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "Amira_panRG_pipeline"
+version = "0.0.0"
+description = "Amira_panRG_pipeline"
+authors = ["Daniel Anderson <dander@ebi.ac.uk>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Danderson123/Amira_panRG_pipeline"
+repository = "https://github.com/Danderson123/Amira_panRG_pipeline"
+packages = []
+keywords = ["AMR Prediction", "Genotyping", "Sequence Assembly"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pysam = "0.22.0"
+tqdm = "4.64.1"
+snakemake = "7.32.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

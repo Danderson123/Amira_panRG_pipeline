@@ -1,12 +1,12 @@
-training_assembly_directory: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/data/assemblies/Escherichia_coli_reassembled_pandora_assemblies
-testing_assembly_directory: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/data/assemblies/Escherichia_coli_24_fixed_assemblies
-output_directory: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG
+training_assembly_directory: data/reference_assemblies
+testing_assembly_directory: data/test_assemblies
+output_directory: Escherichia_coli_panRG
 threads: 24
 skip_poppunk: True
-poppunk_db_path: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/data/poppunk_databases/escherichia_coli_v2_refs
-plasmid_genes_path: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/data/reference_genes/mob_suite_genes.fasta
-bakta_db_path: /nfs/research/zi/dander/helper_scripts/bakta_db
-ariba_path: /hps/nobackup/iqbal/dander/amira_panRG_pipeline/software/ariba.simg
+poppunk_db_path: data/poppunk_databases/escherichia_coli_v2_refs
+plasmid_genes_path: data/reference_genes/mob_suite_genes.fasta
+bakta_db_path: data/bakta_db
+ariba_path: software/ariba.simg
 panaroo:
     identity: 0.8
     len_dif_percent: 0
