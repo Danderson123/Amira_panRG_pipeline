@@ -1,0 +1,7 @@
+name: poppunk
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - panaroo=1.5.1
+ 
