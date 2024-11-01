@@ -147,7 +147,7 @@ rule make_AMR_gff:
                             # "ncbi"]):
                 db_output = os.path.join(output_dir, "ariba_downloads", database)
                 #shell(f"singularity run {params.ariba_path} getref {database} {db_output}")
-                shell(f"cp /hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG/ariba_downloads/* {os.path.dirname(db_output)}")
+                shell(f"cp data/reference_genes/ariba_downloads/* {os.path.dirname(db_output)}")
                 fasta_files.append(db_output + ".fa")
             # cat all the reference AMR alleles
             all_alleles = []
