@@ -6,7 +6,7 @@ Here are some brief instructions to run the Amira panRG construction pipeline on
 
 ## Installation
 
-You first need to clone and then cd into thes repository by running:
+You first need to clone and then cd into the repository by running:
 ```
 git clone https://github.com/Danderson123/Amira_panRG_pipeline && cd Amira_panRG_pipeline
 ```
@@ -18,7 +18,7 @@ The python dependencies can then be installed by running:
 ```
 poetry install
 ```
-You also need to have [Conda](https://docs.anaconda.com/miniconda/miniconda-install/) and [Singularity](https://docs.sylabs.io/guides/3.5/user-guide/quick_start.html#quick-installation-steps) installed. I think Singularity can be installed using conda.
+You also need to have [Conda](https://docs.anaconda.com/miniconda/miniconda-install/).
 
 ## Inputs
 
@@ -34,4 +34,4 @@ You will need to add various files and databases to the subdirectories in `data`
 ## Usage
 
 To run the pipeline on your local machine use:
-`snakemake --cores <NUMBER OF CPUs> --configfile E_coli_config.yaml --nolock --rerun-incomplete --use-conda --use-singularity`
+`snakemake --cores <NUMBER OF CPUs> --configfile E_coli_config.yaml --nolock --rerun-incomplete --use-conda`
