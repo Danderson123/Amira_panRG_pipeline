@@ -209,7 +209,8 @@ rule run_bakta:
     threads: 1
     resources:
         mem_mb=lambda wildcards, attempt: 20000 * attempt, threads=1
-    singularity: "docker://oschwengers/bakta:latest"
+    conda:
+        "envs/bakta.yaml"
     shell:
         "bakta --db {params.bakta_db} --threads {threads} --output {output} {input}"
 

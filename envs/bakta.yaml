@@ -1,7 +1,7 @@
-name: panaroo
+name: bakta
 channels:
  - bioconda
  - conda-forge
 dependencies:
- - panaroo=1.5.1
+ - bakta=1.10.1
  
