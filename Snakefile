@@ -475,6 +475,8 @@ rule align_qced_sequences:
     output:
         aligned=os.path.join(output_dir, "qced_aligned_gene_sequences", "{gene}.fasta")
     threads: 2  # Adjust based on your system's capabilities
+    conda:
+        "envs/panaroo.yaml"
     resources:
 	    mem_mb=lambda wildcards, attempt: 10000 * attempt, threads=2
     run:
