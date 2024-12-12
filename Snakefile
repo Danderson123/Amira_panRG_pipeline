@@ -326,6 +326,8 @@ rule get_panaroo_alignments:
     output:
         touch(os.path.join(output_dir, "panaroo_alignments.done"))
     threads: config["threads"]
+    conda:
+        "envs/panaroo.yaml"
     resources:
 	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"]
     shell:
