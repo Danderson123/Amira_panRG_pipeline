@@ -21,7 +21,8 @@ rule all:
     input:
         os.path.join(output_dir, "AMR_supplemented_panRG.k15.w5.panidx.zip"),
         os.path.join(output_dir, "AMR_gene_headers_unified.txt"),
-        os.path.join(output_dir, "AMR_alleles_unified.fa")
+        os.path.join(output_dir, "AMR_alleles_unified.fa"),
+        os.path.join(output_dir, "core_genes.txt")
 
 
 rule create_poppunk_input:
@@ -607,3 +608,26 @@ rule make_processed_amr_fasta:
         with open(output[0], "w") as o:
             o.write("\n".join(unified_fasta_content))
 
+rule list_core_genes:
+    input:
+        alignments=get_processed_files,
+        ref_samples=get_bakta_files
+    output:
+        os.path.join(output_dir, "core_genes.txt")
+    threads: 1
+    resources:
+        mem_mb=lambda wildcards, attempt: 10000, threads=1
+    run:
+        ref_samples = set()
+        for f in input.ref_samples:
+            ref_samples.add(os.path.basename(f))
+        core_genes = set()
+        for a in tqdm(input.alignments):
+            reader = pyfastaq.sequences.file_reader(a)
+            samples_with_gene = set()
+            for sequence in reader:
+                samples_with_gene.add(str(sequence.id.split(";")[0]))
+            if len(samples_with_gene.intersection(ref_samples)) == len(ref_samples):
+                core_genes.add(os.path.basename(a).replace(".fasta", ""))
+        with open(output[0], "w") as o:
+            o.write("\n".join(list(core_genes)))
