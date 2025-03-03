@@ -10,9 +10,9 @@ You first need to clone and then cd into the repository by running:
 ```
 git clone https://github.com/Danderson123/Amira_panRG_pipeline && cd Amira_panRG_pipeline
 ```
-We use poetry to manage Amira_panRG_pipeline's python dependencies. You can setup a virtual environment and install poetry by running:
+We use poetry to manage Amira_panRG_pipeline's python dependencies. You can setup a virtual conda environment and install poetry by running:
 ```
-python3 -m venv venv && source venv/bin/activate && pip install poetry
+conda create -n amira_panRG_pipeline python=3.9 && conda activate amira_panRG_pipeline && pip install poetry
 ```
 The python dependencies can then be installed by running:
 ```
