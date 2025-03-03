@@ -18,7 +18,7 @@ The python dependencies can then be installed by running:
 ```
 poetry install
 ```
-You also need to have [Conda](https://docs.anaconda.com/miniconda/miniconda-install/) and [MAFFT](https://mafft.cbrc.jp/alignment/software/source.html) in your PATH.
+You also need to have [Conda](https://docs.anaconda.com/miniconda/miniconda-install/), [MAFFT](https://mafft.cbrc.jp/alignment/software/source.html) and [Pandora](https://github.com/iqbal-lab-org/pandora?tab=readme-ov-file#installation) in your PATH.
 
 ## Inputs
 

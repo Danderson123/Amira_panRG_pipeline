@@ -1,2 +1,0 @@
-GCA_027944595.1_ASM2794459v1_genomic	data/reference_assemblies/GCA_027944595.1_ASM2794459v1_genomic.fa
-GCA_027944575.1_ASM2794457v1_genomic	data/reference_assemblies/GCA_027944575.1_ASM2794457v1_genomic.fa
