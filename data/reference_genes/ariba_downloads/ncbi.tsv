@@ -1,3 +1,491 @@
+cdiA-1.NG_244660.1	1	0	.	.	class A beta-lactamase CdiA-1
+blaVIM-95.NG_244659.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-95
+blaVIM-94.NG_244658.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-94
+blaVIM-93.NG_244657.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-93
+blaVEB-40.NG_244656.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-40
+blaTEM-263.NG_244655.1	1	0	.	.	inhibitor-resistant broad-spectrum class A beta-lactamase TEM-263
+blaTEM-262.NG_244654.1	1	0	.	.	class A beta-lactamase TEM-262
+blaTEM-261.NG_244653.1	1	0	.	.	class A beta-lactamase TEM-261
+blaTEM-260.NG_244652.1	1	0	.	.	class A beta-lactamase TEM-260
+blaTEM-259.NG_244651.1	1	0	.	.	class A beta-lactamase TEM-259
+blaTEL-1.NG_244650.1	1	0	.	.	class A beta-lactamase TEL-1
+blaSME-6.NG_244649.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase SME-6
+blaSIQ-1.NG_244648.1	1	0	.	.	subclass B3 metallo-beta-lactamase SIQ-1
+blaSHV-252.NG_244647.1	1	0	.	.	class A beta-lactamase SHV-252
+blaSHV-251.NG_244646.1	1	0	.	.	class A beta-lactamase SHV-251
+blaSHV-250.NG_244645.1	1	0	.	.	class A beta-lactamase SHV-250
+blaSHV-249.NG_244644.1	1	0	.	.	class A beta-lactamase SHV-249
+blaSHV-248.NG_244643.1	1	0	.	.	class A beta-lactamase SHV-248
+blaSHV-247.NG_244642.1	1	0	.	.	class A beta-lactamase SHV-247
+blaSHV-246.NG_244641.1	1	0	.	.	class A beta-lactamase SHV-246
+blaSAM-1.NG_244640.1	1	0	.	.	subclass B3 metallo-beta-lactamase SAM-1
+blaCARB-62.NG_244477.1	1	0	.	.	PSE family carbenicillin-hydrolyzing class A beta-lactamase CARB-62
+blaCARB-61.NG_244476.1	1	0	.	.	PSE family carbenicillin-hydrolyzing class A beta-lactamase CARB-61
+blaCARB-60.NG_244475.1	1	0	.	.	PSE family carbenicillin-hydrolyzing class A beta-lactamase CARB-60
+blaCARB-59.NG_244474.1	1	0	.	.	PSE family carbenicillin-hydrolyzing class A beta-lactamase CARB-59
+blaPDC-683.NG_244639.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-683
+blaPDC-682.NG_244638.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-682
+blaPDC-681.NG_244637.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-681
+blaPDC-680.NG_244636.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-680
+blaPDC-679.NG_244635.1	1	0	.	.	class C beta-lactamase PDC-679
+blaPDC-678.NG_244634.1	1	0	.	.	class C beta-lactamase PDC-678
+blaPDC-677.NG_244633.1	1	0	.	.	class C beta-lactamase PDC-677
+blaPDC-676.NG_244632.1	1	0	.	.	class C beta-lactamase PDC-676
+blaPDC-675.NG_244631.1	1	0	.	.	class C beta-lactamase PDC-675
+blaPDC-674.NG_244630.1	1	0	.	.	class C beta-lactamase PDC-674
+blaPDC-673.NG_244629.1	1	0	.	.	class C beta-lactamase PDC-673
+blaPDC-672.NG_244628.1	1	0	.	.	class C beta-lactamase PDC-672
+blaPDC-671.NG_244627.1	1	0	.	.	class C beta-lactamase PDC-671
+blaPDC-670.NG_244626.1	1	0	.	.	class C beta-lactamase PDC-670
+blaPDC-669.NG_244625.1	1	0	.	.	class C beta-lactamase PDC-669
+blaPDC-668.NG_244624.1	1	0	.	.	class C beta-lactamase PDC-668
+blaPDC-667.NG_244623.1	1	0	.	.	class C beta-lactamase PDC-667
+blaPDC-666.NG_244622.1	1	0	.	.	class C beta-lactamase PDC-666
+blaPDC-665.NG_244621.1	1	0	.	.	class C beta-lactamase PDC-665
+blaPDC-664.NG_244620.1	1	0	.	.	class C beta-lactamase PDC-664
+blaPDC-663.NG_244619.1	1	0	.	.	class C beta-lactamase PDC-663
+blaPDC-662.NG_244618.1	1	0	.	.	class C beta-lactamase PDC-662
+blaPDC-661.NG_244617.1	1	0	.	.	class C beta-lactamase PDC-661
+blaPDC-660.NG_244616.1	1	0	.	.	class C beta-lactamase PDC-660
+blaPDC-659.NG_244615.1	1	0	.	.	class C beta-lactamase PDC-659
+blaPDC-658.NG_244614.1	1	0	.	.	class C beta-lactamase PDC-658
+blaPDC-657.NG_244613.1	1	0	.	.	class C beta-lactamase PDC-657
+blaPDC-656.NG_244612.1	1	0	.	.	class C beta-lactamase PDC-656
+blaPDC-655.NG_244611.1	1	0	.	.	class C beta-lactamase PDC-655
+blaPDC-654.NG_244610.1	1	0	.	.	class C beta-lactamase PDC-654
+blaPDC-653.NG_244609.1	1	0	.	.	class C beta-lactamase PDC-653
+blaPDC-652.NG_244608.1	1	0	.	.	class C beta-lactamase PDC-652
+blaPDC-651.NG_244607.1	1	0	.	.	class C beta-lactamase PDC-651
+blaPDC-650.NG_244606.1	1	0	.	.	class C beta-lactamase PDC-650
+blaPDC-649.NG_244605.1	1	0	.	.	class C beta-lactamase PDC-649
+blaPDC-648.NG_244604.1	1	0	.	.	class C beta-lactamase PDC-648
+blaPDC-647.NG_244603.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-647
+blaPDC-646.NG_244602.1	1	0	.	.	class C beta-lactamase PDC-646
+blaPDC-645.NG_244601.1	1	0	.	.	class C beta-lactamase PDC-645
+blaPDC-644.NG_244600.1	1	0	.	.	class C beta-lactamase PDC-644
+blaPDC-643.NG_244599.1	1	0	.	.	class C beta-lactamase PDC-643
+blaPDC-642.NG_244598.1	1	0	.	.	class C beta-lactamase PDC-642
+blaPDC-641.NG_244597.1	1	0	.	.	class C beta-lactamase PDC-641
+blaPAN-1.NG_244596.1	1	0	.	.	subclass B1 metallo-beta-lactamase PAN-1
+blaPAM-6.NG_244595.1	1	0	.	.	subclass B3 metallo-beta-lactamase PAM-6
+blaOXA-MSI.NG_244594.1	1	0	.	.	class D beta-lactamase MSI-OXA
+blaOXA-1376.NG_244593.1	1	0	.	.	OXA-58 family carbapenem-hydrolyzing class D beta-lactamase OXA-1376
+blaOXA-1375.NG_244592.1	1	0	.	.	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase OXA-1375
+blaOXA-1374.NG_244591.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1374
+blaOXA-1373.NG_244590.1	1	0	.	.	OXA-143 family carbapenem-hydrolyzing class D beta-lactamase OXA-1373
+blaOXA-1372.NG_244589.1	1	0	.	.	OXA-2 family class D beta-lactamase OXA-1372
+blaOXA-1371.NG_244588.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1371
+blaOXA-1370.NG_244587.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1370
+blaOXA-1369.NG_244586.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1369
+blaOXA-1368.NG_244585.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1368
+blaOXA-1367.NG_244584.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1367
+blaOXA-1366.NG_244583.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1366
+blaOXA-1365.NG_244582.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1365
+blaOXA-1364.NG_244581.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1364
+blaOXA-1363.NG_244580.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1363
+blaOXA-1362.NG_244579.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1362
+blaOXA-1361.NG_244578.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1361
+blaOXA-1360.NG_244577.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1360
+blaOXA-1359.NG_244576.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1359
+blaOXA-1358.NG_244575.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1358
+blaOXA-1357.NG_244574.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1357
+blaOXA-1356.NG_244573.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1356
+blaOXA-1355.NG_244572.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1355
+blaOXA-1354.NG_244571.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1354
+blaOXA-1353.NG_244570.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1353
+blaOXA-1352.NG_244569.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1352
+blaOXA-1351.NG_244568.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1351
+blaOXA-1350.NG_244567.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1350
+blaOXA-1349.NG_244566.1	1	0	.	.	OXA-5 family class D beta-lactamase OXA-1349
+blaOXA-1348.NG_244565.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1348
+blaOXA-1347.NG_244564.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1347
+blaOXA-1346.NG_244563.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1346
+blaOXA-1345.NG_244562.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1345
+blaOXA-1344.NG_244561.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1344
+blaOXA-1343.NG_244560.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1343
+blaOXA-1342.NG_244559.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1342
+blaOXA-1341.NG_244558.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1341
+blaOXA-1340.NG_244557.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1340
+blaOXA-1339.NG_244556.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1339
+blaOXA-1338.NG_244555.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1338
+blaOXA-1337.NG_244554.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1337
+blaOXA-1336.NG_244553.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1336
+blaOXA-1335.NG_244552.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1335
+blaOXA-1334.NG_244551.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1334
+blaOXA-1333.NG_244550.1	1	0	.	.	OXA-1 family class D beta-lactamase OXA-1333
+blaOXA-1332.NG_244549.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1332
+blaOXA-1331.NG_244548.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1331
+blaOXA-1330.NG_244547.1	1	0	.	.	OXA-143 family carbapenem-hydrolyzing class D beta-lactamase OXA-1330
+blaOXA-1329.NG_244546.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1329
+blaOXA-1328.NG_244545.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1328
+blaNDM-84.NG_244544.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-84
+blaNDM-83.NG_244543.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-83
+blaNDM-82.NG_244542.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-82
+blaNDM-79.NG_244541.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-79
+blaNDM-63.NG_244540.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-63
+blaNDM-59.NG_244539.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-59
+blaMIR-39.NG_244538.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase MIR-39
+blaMIR-38.NG_244537.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase MIR-38
+blaMIR-37.NG_244536.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase MIR-37
+blaMIR-36.NG_244535.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase MIR-36
+blaMIR-26.NG_244534.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase MIR-26
+blaMIM-1.NG_244533.1	1	0	.	.	subclass B3 metallo-beta-lactamase MIM-1
+blaKPC-264.NG_244532.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-264
+blaKPC-263.NG_244531.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-263
+blaKPC-262.NG_244530.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-262
+blaKPC-261.NG_244529.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-261
+blaKPC-260.NG_244528.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-260
+blaKPC-259.NG_244527.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-259
+blaKPC-258.NG_244526.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-258
+blaKPC-257.NG_244525.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-257
+blaKPC-256.NG_244524.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-256
+blaKPC-255.NG_244523.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-255
+blaKPC-252.NG_244522.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-252
+blaKPC-251.NG_244521.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-251
+blaKPC-250.NG_244520.1	1	0	.	.	class A beta-lactamase KPC-250
+blaKPC-249.NG_244519.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-249
+blaKPC-248.NG_244518.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-248
+blaKPC-247.NG_244517.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-247
+blaKPC-246.NG_244516.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-246
+blaIMP-111.NG_244515.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-111
+blaIMP-110.NG_244514.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-110
+blaIMI-30.NG_244513.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase IMI-30
+blaIMI-29.NG_244512.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase IMI-29
+blaHMB-3.NG_244511.1	1	0	.	.	subclass B1 metallo-beta-lactamase HMB-3
+blaGES-67.NG_244510.1	1	0	.	.	class A beta-lactamase GES-67
+blaFOX-23.NG_244509.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase FOX-23
+blaDHA-37.NG_244508.1	1	0	.	.	class C beta-lactamase DHA-37
+blaDHA-36.NG_244507.1	1	0	.	.	class C beta-lactamase DHA-36
+blaDHA-35.NG_244506.1	1	0	.	.	class C beta-lactamase DHA-35
+blaCTX-M-282.NG_244505.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-282
+blaCTX-M-281.NG_244504.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-281
+blaCTX-M-280.NG_244503.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-280
+blaCTX-M-279.NG_244502.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-279
+blaCMY-223.NG_244501.1	1	0	.	.	inhibitor-resistant class C beta-lactamase CMY-223
+blaCMY-222.NG_244500.1	1	0	.	.	inhibitor-resistant class C beta-lactamase CMY-222
+blaCMY-221.NG_244499.1	1	0	.	.	inhibitor-resistant class C beta-lactamase CMY-221
+blaCMY-220.NG_244498.1	1	0	.	.	inhibitor-resistant class C beta-lactamase CMY-220
+blaCMY-218.NG_244497.1	1	0	.	.	class C beta-lactamase CMY-218
+blaCMY-217.NG_244496.1	1	0	.	.	class C beta-lactamase CMY-217
+blaCMY-216.NG_244495.1	1	0	.	.	class C beta-lactamase CMY-216
+blaCMY-215.NG_244494.1	1	0	.	.	class C beta-lactamase CMY-215
+blaCMY-214.NG_244493.1	1	0	.	.	class C beta-lactamase CMY-214
+blaCMY-211.NG_244490.1	1	0	.	.	class C beta-lactamase CMY-211
+blaCMY-208.NG_244487.1	1	0	.	.	class C beta-lactamase CMY-208
+blaCMY-207.NG_244486.1	1	0	.	.	class C beta-lactamase CMY-207
+blaCMY-206.NG_244485.1	1	0	.	.	class C beta-lactamase CMY-206
+blaCMY-205.NG_244484.1	1	0	.	.	class C beta-lactamase CMY-205
+blaCMY-204.NG_244483.1	1	0	.	.	class C beta-lactamase CMY-204
+blaCMY-203.NG_244482.1	1	0	.	.	class C beta-lactamase CMY-203
+blaCMY-202.NG_244481.1	1	0	.	.	class C beta-lactamase CMY-202
+blaCMY-201.NG_244480.1	1	0	.	.	class C beta-lactamase CMY-201
+blaCMY-200.NG_244479.1	1	0	.	.	class C beta-lactamase CMY-200
+blaCMY-213.NG_244492.1	1	0	.	.	class C beta-lactamase CMY-213
+blaCMY-212.NG_244491.1	1	0	.	.	class C beta-lactamase CMY-212
+blaCMY-210.NG_244489.1	1	0	.	.	class C beta-lactamase CMY-210
+blaCMY-209.NG_244488.1	1	0	.	.	class C beta-lactamase CMY-209
+blaASDC-1.NG_244473.1	1	0	.	.	extended-spectrum class C beta-lactamase ASDC-1
+blaAHM-1.NG_244472.1	1	0	.	.	subclass B3-like metallo-beta-lactamase AHM-1
+blaADC-397.NG_244471.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-397
+blaADC-396.NG_244470.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-396
+blaADC-395.NG_244469.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-395
+blaADC-394.NG_244468.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-394
+blaADC-393.NG_244467.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-393
+blaADC-392.NG_244466.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-392
+blaADC-391.NG_244465.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-391
+blaADC-390.NG_244464.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-390
+blaADC-389.NG_244463.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-389
+blaADC-388.NG_244462.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-388
+blaADC-387.NG_244461.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-387
+blaADC-386.NG_244460.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-386
+blaADC-385.NG_244459.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-385
+blaADC-384.NG_244458.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-384
+blaADC-383.NG_244457.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-383
+blaADC-382.NG_244456.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-382
+blaADC-381.NG_244455.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-381
+blaADC-380.NG_244454.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-380
+blaADC-379.NG_244453.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-379
+blaADC-378.NG_244452.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-378
+blaADC-377.NG_244451.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-377
+blaADC-376.NG_244450.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-376
+blaADC-375.NG_244449.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-375
+blaADC-374.NG_244448.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-374
+blaADC-373.NG_244447.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-373
+blaADC-372.NG_244446.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-372
+blaADC-371.NG_244445.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-371
+blaADC-370.NG_244444.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-370
+blaADC-369.NG_244443.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-369
+blaADC-368.NG_244442.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-368
+blaADC-367.NG_244441.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-367
+blaADC-366.NG_244440.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-366
+blaADC-365.NG_244439.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-365
+blaADC-364.NG_244438.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-364
+blaADC-363.NG_244437.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-363
+blaADC-362.NG_244436.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-362
+blaADC-361.NG_244435.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-361
+blaADC-360.NG_244434.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-360
+blaACT-213.NG_244433.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-213
+blaACT-212.NG_244432.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-212
+blaACT-211.NG_244431.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-211
+blaACT-210.NG_244430.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-210
+blaACT-209.NG_244429.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-209
+blaACT-208.NG_244428.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-208
+blaACT-207.NG_244427.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-207
+blaACT-206.NG_244426.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-206
+blaACT-205.NG_244425.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-205
+blaACT-204.NG_244424.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-204
+blaACT-203.NG_244423.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-203
+blaACT-202.NG_244422.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-202
+blaACT-201.NG_244421.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-201
+blaACT-200.NG_244420.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-200
+blaACT-199.NG_244419.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-199
+blaACT-198.NG_244418.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-198
+blaACT-197.NG_244417.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-197
+blaACT-196.NG_244416.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-196
+blaACT-195.NG_244415.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-195
+blaACT-139.NG_244414.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-139
+blaACT-138.NG_244413.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-138
+blaACT-137.NG_244412.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-137
+blaACT-136.NG_244411.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-136
+blaACT-135.NG_244410.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-135
+blaACT-134.NG_244409.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-134
+blaACT-133.NG_244408.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-133
+blaACT-132.NG_244407.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-132
+blaACT-130.NG_244406.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-130
+blaACT-129.NG_244405.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-129
+blaACT-128.NG_244404.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-128
+blaACT-127.NG_244403.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-127
+blaACT-126.NG_244402.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-126
+blaACT-125.NG_244401.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-125
+blaPAC-2.NG_244144.1	1	0	.	.	inhibitor-resistant extended spectrum class C beta-lactamase PAC-2
+blaCMY-192.NG_243573.1	1	0	.	.	inhibitor-resistant extended spectrum class C beta-lactamase CMY-192
+blaPDC-597.NG_242617.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-597
+blaPDC-594.NG_242614.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-594
+cdiA-3.NG_242605.1	1	0	.	.	class A beta-lactamase CdiA-3
+blaOXA-1206.NG_231555.1	1	0	.	.	carbapenem-hydrolyzing class D beta-lactamase OXA-1206
+blaKPC-179.NG_203396.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-179
+blaKPC-178.NG_203395.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-178
+blaKPC-167.NG_157016.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-167
+blaCMY-185.NG_149657.1	1	0	.	.	inhibitor-resistant extended spectrum class C beta-lactamase CMY-185
+blaCMY-178.NG_081693.1	1	0	.	.	inhibitor-resistant extended spectrum class C beta-lactamase CMY-178
+blaKPC-121.NG_079896.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-121
+blaKPC-106.NG_078056.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-106
+blaACT-86.NG_068163.1	1	0	.	.	inhibitor-resistant ceftazidime-hydrolyzing class C beta-lactamase ACT-86
+blaPDC-244.NG_056399.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-244
+blaPDC-191.NG_054977.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-191
+blaKPC-15.NG_049248.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-15
+cdiA-2.NG_047543.1	1	0	.	.	class A beta-lactamase CdiA-2
+cfiA33.NG_244147.1	1	0	.	.	subclass B1 metallo-beta-lactamase CfiA33
+cfiA32.NG_244146.1	1	0	.	.	subclass B1 metallo-beta-lactamase CfiA32
+blaVIM-92.NG_244145.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-92
+blaOXA-1327.NG_244143.1	1	0	.	.	class D beta-lactamase OXA-1327
+blaOXA-1325.NG_244142.1	1	0	.	.	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-1325
+blaOXA-1322.NG_244141.1	1	0	.	.	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase OXA-1322
+blaOXA-1321.NG_244140.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1321
+blaOXA-1320.NG_244139.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1320
+blaOXA-1319.NG_244138.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1319
+blaOXA-1318.NG_244137.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1318
+blaOXA-1317.NG_244136.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1317
+blaOXA-1316.NG_244135.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1316
+blaOXA-1315.NG_244134.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1315
+blaOXA-1314.NG_244133.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1314
+blaOXA-1313.NG_244132.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1313
+blaOXA-1312.NG_244131.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1312
+blaOXA-1311.NG_244130.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1311
+blaOXA-1310.NG_244129.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1310
+blaOXA-1054.NG_244128.1	1	0	.	.	OXA-372 family carbapenem-hydrolyzing class D beta-lactamase OXA-1054
+blaNDM-78.NG_244127.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-78
+blaNDM-77.NG_244126.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-77
+blaNDM-76.NG_244125.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-76
+blaNDM-75.NG_244124.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-75
+blaKPC-245.NG_244123.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-245
+blaKPC-244.NG_244122.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-244
+blaKPC-243.NG_244121.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-243
+blaIMP-106.NG_244120.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-106
+blaBIM-2.NG_244118.1	1	0	.	.	subclass B1 metallo-beta-lactamase BIM-2
+blaGES-66.NG_243587.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-66
+blaOXA-1251.NG_242754.1	1	0	.	.	OXA-258 family class D beta-lactamase OXA-1251
+blaGES-61.NG_242722.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-61
+blaKPC-189.NG_231550.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-189
+blaPDC-558.NG_228682.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-558
+blaPDC-523.NG_081768.1	1	0	.	.	inhibitor-resistant extended-spectrum class C beta-lactamase PDC-523
+blaSHV-203.NG_055668.1	1	0	.	.	inhibitor-resistant broad-spectrum class A beta-lactamase SHV-203
+blaPAC-1.NG_052627.1	1	0	.	.	inhibitior-resistant extended spectrum class C beta-lactamase PAC-1
+blaVEB-1.NG_050317.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase VEB-1
+blaSHV-129.NG_050007.1	1	0	.	.	extended-spectrum class A beta-lactamase SHV-129
+blaGES-4.NG_049136.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase GES-4
+qnrB90.NG_243615.1	1	0	.	.	quinolone resistance pentapeptide repeat protein QnrB90
+blaVIM-91.NG_243614.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-91
+blaVIM-90.NG_243613.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-90
+blaVIM-89.NG_243612.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-89
+blaVIM-88.NG_243611.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-88
+blaVEB-39.NG_243610.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-39
+blaVEB-38.NG_243609.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-38
+blaVEB-37.NG_243608.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-37
+blaVEB-36.NG_243607.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-36
+blaVEB-35.NG_243606.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-35
+blaTEM-258.NG_243605.1	1	0	.	.	class A beta-lactamase TEM-258
+blaPER-18.NG_243604.1	1	0	.	.	extended-spectrum class A beta-lactamase PER-18
+blaOXA-1309.NG_243603.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1309
+blaOXA-1308.NG_243602.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1308
+blaOXA-1307.NG_243601.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1307
+blaOXA-1306.NG_243600.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1306
+blaOXA-1305.NG_243599.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1305
+blaOXA-1304.NG_243598.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-1304
+blaNDM-74.NG_243597.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-74
+blaNDM-73.NG_243596.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-73
+blaKPC-242.NG_243595.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-242
+blaKPC-241.NG_243594.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-241
+blaKPC-240.NG_243593.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-240
+blaKPC-239.NG_243592.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-239
+blaKPC-238.NG_243591.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-238
+blaKPC-237.NG_243590.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-237
+blaKPC-236.NG_243589.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-236
+blaIMP-105.NG_243588.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-105
+blaGES-65.NG_243586.1	1	0	.	.	class A beta-lactamase GES-65
+blaDHA-34.NG_243585.1	1	0	.	.	class C beta-lactamase DHA-34
+blaCTX-M-278.NG_243584.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-278
+blaCTX-M-277.NG_243583.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-277
+blaCTX-M-276.NG_243582.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-276
+blaCTX-M-275.NG_243581.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-275
+blaCTX-M-274.NG_243580.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-274
+blaCMY-199.NG_243579.1	1	0	.	.	class C beta-lactamase CMY-199
+blaCMY-198.NG_243578.1	1	0	.	.	class C beta-lactamase CMY-198
+blaCMY-197.NG_243577.1	1	0	.	.	class C beta-lactamase CMY-197
+blaCMY-196.NG_243576.1	1	0	.	.	class C beta-lactamase CMY-196
+blaCMY-195.NG_243575.1	1	0	.	.	class C beta-lactamase CMY-195
+blaCMY-194.NG_243574.1	1	0	.	.	class C beta-lactamase CMY-194
+blaCMH-21.NG_243572.1	1	0	.	.	class C beta-lactamase CMH-21
+blaPDC-640.NG_243571.1	1	0	.	.	class C beta-lactamase PDC-640
+blaKPC-234.NG_243570.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-234
+blaCTX-M-273.NG_243569.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-273
+blaADC-359.NG_243568.1	1	0	.	.	class C beta-lactamase ADC-359
+qnrB94.NG_243567.1	1	0	.	.	quinolone resistance pentapeptide repeat protein QnrB94
+blaTEM-257.NG_243566.1	1	0	.	.	class A beta-lactamase TEM-257
+blaTEM-256.NG_243565.1	1	0	.	.	class A beta-lactamase TEM-256
+blaTEM-255.NG_243564.1	1	0	.	.	class A beta-lactamase TEM-255
+blaTEM-254.NG_243563.1	1	0	.	.	class A beta-lactamase TEM-254
+blaTEM-253.NG_243562.1	1	0	.	.	class A beta-lactamase TEM-253
+blaPER-17.NG_243561.1	1	0	.	.	extended-spectrum class A beta-lactamase PER-17
+blaPDC-639.NG_243560.1	1	0	.	.	class C beta-lactamase PDC-639
+blaPDC-638.NG_243559.1	1	0	.	.	class C beta-lactamase PDC-638
+blaPDC-637.NG_243558.1	1	0	.	.	class C beta-lactamase PDC-637
+blaPDC-636.NG_243557.1	1	0	.	.	class C beta-lactamase PDC-636
+blaPDC-635.NG_243556.1	1	0	.	.	class C beta-lactamase PDC-635
+blaPDC-634.NG_243555.1	1	0	.	.	class C beta-lactamase PDC-634
+blaPDC-633.NG_243554.1	1	0	.	.	class C beta-lactamase PDC-633
+blaPDC-632.NG_243553.1	1	0	.	.	class C beta-lactamase PDC-632
+blaPDC-631.NG_243552.1	1	0	.	.	class C beta-lactamase PDC-631
+blaPDC-630.NG_243551.1	1	0	.	.	class C beta-lactamase PDC-630
+blaPDC-629.NG_243550.1	1	0	.	.	class C beta-lactamase PDC-629
+blaPDC-628.NG_243549.1	1	0	.	.	class C beta-lactamase PDC-628
+blaPDC-627.NG_243548.1	1	0	.	.	class C beta-lactamase PDC-627
+blaPDC-626.NG_243547.1	1	0	.	.	class C beta-lactamase PDC-626
+blaPDC-625.NG_243546.1	1	0	.	.	class C beta-lactamase PDC-625
+blaPDC-624.NG_243545.1	1	0	.	.	class C beta-lactamase PDC-624
+blaPDC-623.NG_243544.1	1	0	.	.	class C beta-lactamase PDC-623
+blaPDC-622.NG_243543.1	1	0	.	.	class C beta-lactamase PDC-622
+blaPDC-621.NG_243542.1	1	0	.	.	class C beta-lactamase PDC-621
+blaPDC-620.NG_243541.1	1	0	.	.	class C beta-lactamase PDC-620
+blaPDC-619.NG_243540.1	1	0	.	.	class C beta-lactamase PDC-619
+blaPDC-618.NG_243539.1	1	0	.	.	class C beta-lactamase PDC-618
+blaPDC-617.NG_243538.1	1	0	.	.	class C beta-lactamase PDC-617
+blaPDC-616.NG_243537.1	1	0	.	.	class C beta-lactamase PDC-616
+blaPDC-615.NG_243536.1	1	0	.	.	class C beta-lactamase PDC-615
+blaPDC-614.NG_243535.1	1	0	.	.	class C beta-lactamase PDC-614
+blaPDC-613.NG_243534.1	1	0	.	.	class C beta-lactamase PDC-613
+blaPDC-612.NG_243533.1	1	0	.	.	class C beta-lactamase PDC-612
+blaPDC-611.NG_243532.1	1	0	.	.	class C beta-lactamase PDC-611
+blaPDC-610.NG_243531.1	1	0	.	.	class C beta-lactamase PDC-610
+blaPDC-609.NG_243530.1	1	0	.	.	class C beta-lactamase PDC-609
+blaPDC-608.NG_243529.1	1	0	.	.	class C beta-lactamase PDC-608
+blaPDC-607.NG_243528.1	1	0	.	.	class C beta-lactamase PDC-607
+blaPDC-606.NG_243527.1	1	0	.	.	class C beta-lactamase PDC-606
+blaPDC-605.NG_243526.1	1	0	.	.	class C beta-lactamase PDC-605
+blaPDC-604.NG_243525.1	1	0	.	.	class C beta-lactamase PDC-604
+blaPDC-603.NG_243524.1	1	0	.	.	class C beta-lactamase PDC-603
+blaPDC-602.NG_243523.1	1	0	.	.	class C beta-lactamase PDC-602
+blaOXA-410.NG_243522.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-410
+blaOXA-1303.NG_243521.1	1	0	.	.	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase OXA-1303
+blaOXA-1302.NG_243520.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1302
+blaOXA-1301.NG_243519.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1301
+blaOXA-1300.NG_243518.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1300
+blaOXA-1299.NG_243517.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1299
+blaOXA-1298.NG_243516.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1298
+blaOXA-1297.NG_243515.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1297
+blaOXA-1296.NG_243514.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1296
+blaOXA-1295.NG_243513.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1295
+blaOXA-1294.NG_243512.1	1	0	.	.	OXA-50-var family class D beta-lactamase OXA-1294
+blaOXA-1293.NG_243511.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1293
+blaOXA-1292.NG_243510.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1292
+blaOXA-1291.NG_243509.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1291
+blaOXA-1290.NG_243508.1	1	0	.	.	OXA-50-var family class D beta-lactamase OXA-1290
+blaOXA-1289.NG_243507.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1289
+blaOXA-1288.NG_243506.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1288
+blaOXA-1287.NG_243505.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1287
+blaOXA-1286.NG_243504.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1286
+blaOXA-1285.NG_243503.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1285
+blaOXA-1284.NG_243502.1	1	0	.	.	OXA-50-var family class D beta-lactamase OXA-1284
+blaOXA-1283.NG_243501.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1283
+blaOXA-1282.NG_243500.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1282
+blaOXA-1281.NG_243499.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1281
+blaOXA-1280.NG_243498.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1280
+blaOXA-1279.NG_243497.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1279
+blaOXA-1278.NG_243496.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1278
+blaOXA-1277.NG_243495.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1277
+blaOXA-1276.NG_243494.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1276
+blaOXA-1275.NG_243493.1	1	0	.	.	OXA-50-var family class D beta-lactamase OXA-1275
+blaOXA-1274.NG_243492.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1274
+blaOXA-1273.NG_243491.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1273
+blaOXA-1272.NG_243490.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1272
+blaOXA-1271.NG_243489.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1271
+blaOXA-1270.NG_243488.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1270
+blaOXA-1269.NG_243487.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1269
+blaOXA-1268.NG_243486.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1268
+blaOXA-1267.NG_243485.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1267
+blaOXA-1266.NG_243484.1	1	0	.	.	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase OXA-1266
+blaOXA-1265.NG_243483.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1265
+blaOXA-1264.NG_243482.1	1	0	.	.	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase OXA-1264
+blaOXA-1263.NG_243481.1	1	0	.	.	OXA-1258 family class D beta-lactamase OXA-1263
+blaOXA-1262.NG_243480.1	1	0	.	.	OXA-1258 family class D beta-lactamase OXA-1262
+blaOXA-1261.NG_243479.1	1	0	.	.	OXA-1258 family class D beta-lactamase OXA-1261
+blaOXA-1260.NG_243478.1	1	0	.	.	OXA-1258 family class D beta-lactamase OXA-1260
+blaOXA-1259.NG_243477.1	1	0	.	.	OXA-1258 family class D beta-lactamase OXA-1259
+blaOXA-1258.NG_243476.1	1	0	.	.	class D beta-lactamase OXA-1258
+blaOXA-1221.NG_243475.1	1	0	.	.	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-1221
+blaNDM-72.NG_243474.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-72
+blaNDM-71.NG_243473.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-71
+blaKPC-233.NG_243472.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-233
+blaKPC-232.NG_243471.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-232
+blaKPC-231.NG_243470.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-231
+blaKPC-188.NG_243469.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-188
+blaIMP-104.NG_243468.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-104
+blaGES-62.NG_243467.1	1	0	.	.	class A beta-lactamase GES-62
+blaDHA-32.NG_243466.1	1	0	.	.	class C beta-lactamase DHA-32
+blaCTX-M-272.NG_243465.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-272
+blaCTX-M-271.NG_243464.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-271
+blaCIM-1.NG_243463.1	1	0	.	.	subclass B1 metallo-beta-lactamase CIM-1
+blaAXC-8.NG_243462.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase AXC-8
+blaADC-358.NG_243461.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-358
+blaADC-357.NG_243460.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-357
+blaADC-356.NG_243459.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-356
+blaADC-355.NG_243458.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-355
+blaADC-354.NG_243457.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-354
+blaPEN-G.NG_243456.1	1	0	.	.	PEN-G family class A beta-lactamase
+blaOXA-1256.NG_242759.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1256
+blaOXA-1255.NG_242758.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1255
+blaOXA-1254.NG_242757.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1254
+blaOXA-1253.NG_242756.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1253
+blaOXA-1252.NG_242755.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1252
+blaOXA-1250.NG_242753.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1250
+blaOXA-1177.NG_148664.1	1	0	.	.	OXA-22 family class D beta-lactamase OXA-1177
+blaOXA-1176.NG_148663.1	1	0	.	.	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase OXA-1176
+blaOXA-1041.NG_078050.1	1	0	.	.	carbapenem-hydrolyzing class D beta-lactamase OXA-1041
+vat(I).NG_055656.1	1	0	.	.	streptogramin A O-acetyltransferase Vat(I)
+blaCTX-M-199.NG_054961.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-199
+cml.NG_052042.1	1	0	.	.	CmlA/FloR family chloramphenicol efflux MFS transporter
+blaCTX-M-190.NG_051509.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-190
+blaTEM-142.NG_050185.1	1	0	.	.	extended-spectrum class A beta-lactamase TEM-142
 blaCARB-46.NG_048749.2	1	0	.	.	carbenicillin-hydrolyzing class A beta-lactamase CARB-46
 qnrE7.NG_242773.1	1	0	.	.	quinolone resistance pentapeptide repeat protein QnrE7
 qnrE6.NG_242772.1	1	0	.	.	quinolone resistance pentapeptide repeat protein QnrE6
@@ -13,13 +501,6 @@ blaPNC-3.NG_242763.1	1	0	.	.	extended-spectrum class C beta-lactamase PNC-3
 blaPNC-2.NG_242762.1	1	0	.	.	extended-spectrum class C beta-lactamase PNC-2
 blaPDC-601.NG_242761.1	1	0	.	.	class C beta-lactamase PDC-601
 blaOXA-1257.NG_242760.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1257
-blaOXA-1256.NG_242759.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1256
-blaOXA-1255.NG_242758.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1255
-blaOXA-1254.NG_242757.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1254
-blaOXA-1253.NG_242756.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1253
-blaOXA-1252.NG_242755.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1252
-blaOXA-1251.NG_242754.1	1	0	.	.	OXA-258 family class D beta-lactamase OXA-1251
-blaOXA-1250.NG_242753.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1250
 blaOXA-1249.NG_242752.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1249
 blaOXA-1248.NG_242751.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1248
 blaOXA-1247.NG_242750.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1247
@@ -50,7 +531,6 @@ blaKPC-224.NG_242726.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class 
 blaKPC-223.NG_242725.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-223
 blaKPC-218.NG_242724.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-218
 blaKPC-217.NG_242723.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-217
-blaGES-61.NG_242722.1	1	0	.	.	class A beta-lactamase GES-61
 blaGES-60.NG_242721.1	1	0	.	.	extended-spectrum class A beta-lactamase GES-60
 blaCMY-191.NG_242720.1	1	0	.	.	class C beta-lactamase CMY-191
 blaCMH-34.NG_242719.1	1	0	.	.	class C beta-lactamase CMH-34
@@ -142,10 +622,8 @@ aadA33.NG_242633.1	1	0	.	.	ANT(3'')-I family aminoglycoside nucleotidyltransfera
 blaPDC-600.NG_242620.1	1	0	.	.	class C beta-lactamase PDC-600
 blaPDC-599.NG_242619.1	1	0	.	.	class C beta-lactamase PDC-599
 blaPDC-598.NG_242618.1	1	0	.	.	class C beta-lactamase PDC-598
-blaPDC-597.NG_242617.1	1	0	.	.	class C beta-lactamase PDC-597
 blaPDC-596.NG_242616.1	1	0	.	.	class C beta-lactamase PDC-596
 blaPDC-595.NG_242615.1	1	0	.	.	class C beta-lactamase PDC-595
-blaPDC-594.NG_242614.1	1	0	.	.	class C beta-lactamase PDC-594
 blaPDC-593.NG_242613.1	1	0	.	.	class C beta-lactamase PDC-593
 blaSHV-238.NG_242317.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase SHV-238
 blaKPC-170.NG_231546.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-170
@@ -159,7 +637,6 @@ blaIMP-98.NG_148620.1	1	0	.	.	subclass B1 metallo-beta-lactamase IMP-98
 blaVIM-83.NG_088451.1	1	0	.	.	taniborbactam-resistant subclass B1 metallo-beta-lactamase VIM-83
 blaOXY-1-13.NG_081729.1	1	0	.	.	extended-spectrum class A beta-lactamase OXY-1-13
 blaKPC-112.NG_079230.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-112
-blaOXA-1041.NG_078050.1	1	0	.	.	class D beta-lactamase OXA-1041
 blaVIM-77.NG_078035.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-77
 blaOXA-1011.NG_076852.1	1	0	.	.	class D beta-lactamase OXA-1011
 blaKPC-84.NG_074720.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-84
@@ -178,7 +655,6 @@ fosB.NG_065844.1	1	0	.	.	FosB/FosD family fosfomycin resistance bacillithiol tra
 sulR.NG_064663.1	1	0	.	.	flavin reductase SulR
 aph(3')-Ib.NG_059324.1	1	0	.	.	aminoglycoside O-phosphotransferase APH(3')-Ib
 aac(6')-Ib.NG_056043.1	1	0	.	.	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase
-blaSHV-203.NG_055668.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase SHV-203
 blaSHV-200.NG_055588.1	1	0	.	.	extended-spectrum class A beta-lactamase SHV-200
 blaLUS-1.NG_055472.1	1	0	.	.	class A beta-lactamase LUS-1
 blaPLN-1.NG_055471.1	1	0	.	.	subclass B3 metallo-beta-lactamase PLN-1
@@ -208,7 +684,6 @@ blaSHV-65.NG_050100.1	1	0	.	.	broad-spectrum class A beta-lactamase SHV-65
 blaSHV-26.NG_050063.1	1	0	.	.	broad-spectrum class A beta-lactamase SHV-26
 blaSHV-187.NG_050053.1	1	0	.	.	broad-spectrum class A beta-lactamase SHV-187
 blaSHV-141.NG_050015.1	1	0	.	.	extended-spectrum class A beta-lactamase SHV-141
-blaSHV-129.NG_050007.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase SHV-129
 blaOXA-497.NG_049774.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-497
 blaOXA-494.NG_049773.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-494
 blaOXA-491.NG_049771.1	1	0	.	.	class D beta-lactamase OXA-491
@@ -249,7 +724,6 @@ cmeB.NG_242531.1	1	0	.	.	multidrug efflux RND transporter permease subunit CmeB,
 blaVIM-87.NG_242608.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-87
 blaVEB-34.NG_242607.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-34
 blaSHV-244.NG_242606.1	1	0	.	.	class A beta-lactamase SHV-244
-blaSED-2.NG_242605.1	1	0	.	.	class A beta-lactamase SED-2
 blaPNC-1.NG_242604.1	1	0	.	.	class C beta-lactamase PNC-1
 blaPDC-592.NG_242603.1	1	0	.	.	class C beta-lactamase PDC-592
 blaPDC-591.NG_242602.1	1	0	.	.	class C beta-lactamase PDC-591
@@ -479,12 +953,10 @@ blaOXA-1217.NG_231559.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D bet
 blaOXA-1216.NG_231558.1	1	0	.	.	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase OXA-1216
 blaOXA-1215.NG_231557.1	1	0	.	.	OXA-286 family carbapenem-hydrolyzing class D beta-lactamase OXA-1215
 blaOXA-1214.NG_231556.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1214
-blaOXA-1206.NG_231555.1	1	0	.	.	class D beta-lactamase OXA-1206
 blaNDM-61.NG_231554.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-61
 blaKPC-192.NG_231553.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-192
 blaKPC-191.NG_231552.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-191
 blaKPC-190.NG_231551.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-190
-blaKPC-189.NG_231550.1	1	0	.	.	extended-spectrum class A beta-lactamase KPC-189
 blaKPC-187.NG_231549.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-187
 blaKPC-186.NG_231548.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-186
 blaKPC-185.NG_231547.1	1	0	.	.	inhibitor-resistant extended-spectrum class A beta-lactamase KPC-185
@@ -519,7 +991,6 @@ blaPDC-562.NG_228686.1	1	0	.	.	class C beta-lactamase PDC-562
 blaPDC-561.NG_228685.1	1	0	.	.	class C beta-lactamase PDC-561
 blaPDC-560.NG_228684.1	1	0	.	.	class C beta-lactamase PDC-560
 blaPDC-559.NG_228683.1	1	0	.	.	class C beta-lactamase PDC-559
-blaPDC-558.NG_228682.1	1	0	.	.	class C beta-lactamase PDC-558
 blaPDC-557.NG_228681.1	1	0	.	.	class C beta-lactamase PDC-557
 blaPDC-556.NG_228680.1	1	0	.	.	class C beta-lactamase PDC-556
 blaPDC-555.NG_228679.1	1	0	.	.	class C beta-lactamase PDC-555
@@ -565,8 +1036,6 @@ blaNDM-60.NG_203402.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-60
 blaNDM-58.NG_203401.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-58
 blaNDM-57.NG_203400.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-57
 blaNDM-56.NG_203399.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-56
-blaKPC-179.NG_203396.1	1	0	.	.	class A beta-lactamase KPC-179
-blaKPC-178.NG_203395.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-178
 blaKPC-129.NG_203394.1	1	0	.	.	class A beta-lactamase KPC-129
 blaKPC-124.NG_203393.1	1	0	.	.	inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-124
 blaIND-17.NG_203392.1	1	0	.	.	subclass B1 metallo-beta-lactamase IND-17
@@ -687,7 +1156,6 @@ blaNDM-54.NG_157020.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-54
 blaNDM-53.NG_157019.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-53
 blaNDM-52.NG_157018.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-52
 blaNDM-51.NG_157017.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-51
-blaKPC-167.NG_157016.1	1	0	.	.	class A beta-lactamase KPC-167
 blaKPC-166.NG_157015.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-166
 blaKPC-165.NG_157014.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-165
 blaKPC-164.NG_157013.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-164
@@ -815,7 +1283,6 @@ blaADC-291.NG_149679.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-291
 blaKPC-156.NG_149661.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-156
 cfiA31.NG_149676.1	1	0	.	.	subclass B1 metallo-beta-lactamase CfiA31
 cfiA30.NG_149675.1	1	0	.	.	subclass B1 metallo-beta-lactamase CfiA30
-blaCMY-185.NG_149657.1	1	0	.	.	class C beta-lactamase CMY-185
 blaKPC-155.NG_149660.1	1	0	.	.	inhibitor-resistant class A beta-lactamase KPC-155
 blaPDC-539.NG_149669.1	1	0	.	.	class C beta-lactamase PDC-539
 blaPDC-538.NG_149668.1	1	0	.	.	class C beta-lactamase PDC-538
@@ -881,8 +1348,6 @@ blaPDC-534.NG_148668.1	1	0	.	.	class C beta-lactamase PDC-534
 blaOXA-1184.NG_148667.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1184
 blaOXA-1183.NG_148666.1	1	0	.	.	OXA-2 family class D beta-lactamase OXA-1183
 blaOXA-1178.NG_148665.1	1	0	.	.	OXA-58 family carbapenem-hydrolyzing class D beta-lactamase OXA-1178
-blaOXA-1177.NG_148664.1	1	0	.	.	OXA-22 family class D beta-lactamase OXA-1177
-blaOXA-1176.NG_148663.1	1	0	.	.	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase OXA-1176
 blaOXA-1175.NG_148662.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-1175
 blaOXA-1174.NG_148661.1	1	0	.	.	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase OXA-1174
 blaOXA-1173.NG_148660.1	1	0	.	.	OXA-2 family class D beta-lactamase OXA-1173
@@ -1159,7 +1624,6 @@ blaPDC-527.NG_081772.1	1	0	.	.	class C beta-lactamase PDC-527
 blaPDC-526.NG_081771.1	1	0	.	.	class C beta-lactamase PDC-526
 blaPDC-525.NG_081770.1	1	0	.	.	class C beta-lactamase PDC-525
 blaPDC-524.NG_081769.1	1	0	.	.	class C beta-lactamase PDC-524
-blaPDC-523.NG_081768.1	1	0	.	.	class C beta-lactamase PDC-523
 blaPDC-522.NG_081767.1	1	0	.	.	class C beta-lactamase PDC-522
 blaPDC-521.NG_081766.1	1	0	.	.	class C beta-lactamase PDC-521
 blaPDC-520.NG_081765.1	1	0	.	.	class C beta-lactamase PDC-520
@@ -1230,7 +1694,6 @@ blaGOB-53.NG_081698.1	1	0	.	.	subclass B3 metallo-beta-lactamase GOB-53
 blaFONA-7.NG_081697.1	1	0	.	.	class A beta-lactamase FONA-7
 blaCTX-M-254.NG_081695.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-254
 blaCTX-M-253.NG_081694.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-253
-blaCMY-178.NG_081693.1	1	0	.	.	class C beta-lactamase CMY-178
 blaADC-282.NG_081692.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-282
 blaADC-281.NG_081691.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-281
 blaADC-280.NG_081690.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-280
@@ -1619,7 +2082,6 @@ blaCTX-M-202.NG_055272.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-
 blaCTX-M-203.NG_055269.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-203
 blaCTX-M-127.NG_055268.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-127
 blaADC-154.NG_054996.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-154
-blaCTX-M-199.NG_054961.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-199
 blaGES-33.NG_054709.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-33
 blaADC-152.NG_054691.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-152
 blaCTX-M-198.NG_054687.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-198
@@ -1641,7 +2103,6 @@ blaOXA-539.NG_052064.1	1	0	.	.	OXA-2 family inhibitor-resistant extended-spectru
 blaSHV-28.NG_051877.1	1	0	.	.	broad-spectrum class A beta-lactamase SHV-28
 blaCTX-M-138.NG_051737.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-138
 blaGES-32.NG_051512.1	1	0	.	.	extended-spectrum class A beta-lactamase GES-32
-blaCTX-M-190.NG_051509.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-190
 blaADC-57.NG_051494.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-57
 blaADC-29.NG_051493.1	1	0	.	.	extended-spectrum class C beta-lactamase ADC-29
 blaCTX-M-189.NG_051468.1	1	0	.	.	extended-spectrum class A beta-lactamase CTX-M-189
@@ -1738,7 +2199,6 @@ blaVEB-13.NG_050321.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-13
 blaVEB-12.NG_050320.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-12
 blaVEB-11.NG_050319.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-11
 blaVEB-10.NG_050318.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-10
-blaVEB-1.NG_050317.1	1	0	.	.	extended-spectrum class A beta-lactamase VEB-1
 blaTLA-3.NG_050312.1	1	0	.	.	extended-spectrum class A beta-lactamase TLA-3
 blaTLA-1.NG_050311.1	1	0	.	.	extended-spectrum class A beta-lactamase TLA-1
 blaTEM-95.NG_050304.1	1	0	.	.	broad-spectrum class A beta-lactamase TEM-95
@@ -2392,7 +2852,6 @@ blaOXA-1060.NG_079902.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D bet
 blaOXA-1059.NG_079901.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1059
 blaOXA-1058.NG_079900.1	1	0	.	.	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase OXA-1058
 blaKPC-122.NG_079897.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-122
-blaKPC-121.NG_079896.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-121
 blaKPC-120.NG_079895.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-120
 blaKPC-119.NG_079894.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-119
 blaKPC-118.NG_079893.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-118
@@ -2459,7 +2918,6 @@ blaPDC-500.NG_078066.1	1	0	.	.	inhibitor-resistant class C beta-lactamase PDC-50
 blaPDC-499.NG_078065.1	1	0	.	.	class C beta-lactamase PDC-499
 blaPDC-498.NG_078064.1	1	0	.	.	class C beta-lactamase PDC-498
 blaKPC-102.NG_078063.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-102
-blaKPC-106.NG_078056.1	1	0	.	.	class A beta-lactamase KPC-106
 blaKPC-108.NG_078055.1	1	0	.	.	class A beta-lactamase KPC-108
 blaKPC-105.NG_078054.1	1	0	.	.	class A beta-lactamase KPC-105
 blaKPC-107.NG_078053.1	1	0	.	.	class A beta-lactamase KPC-107
@@ -2998,7 +3456,6 @@ blaGOB-28.NG_068171.1	1	0	.	.	subclass B3 metallo-beta-lactamase GOB-28
 blaFOX-17.NG_068170.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase FOX-17
 blaCMY-171.NG_068165.1	1	0	.	.	class C beta-lactamase CMY-171
 blaB-30.NG_068164.1	1	0	.	.	subclass B1 metallo-beta-lactamase BlaB-30
-blaACT-86.NG_068163.1	1	0	.	.	ceftazidime-hydrolyzing class C beta-lactamase ACT-86
 blaACT-85.NG_068162.1	1	0	.	.	ceftazidime-hydrolyzing class C beta-lactamase ACT-85
 blaACT-84.NG_068161.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACT-84
 catA1.NG_047584.1	1	0	.	.	type A-1 chloramphenicol O-acetyltransferase
@@ -3157,7 +3614,6 @@ blaPDC-381.NG_065933.1	1	0	.	.	inhibitor-resistant class C beta-lactamase PDC-38
 blaPDC-346.NG_065898.1	1	0	.	.	inhibitor-resistant class C beta-lactamase PDC-346
 blaPDC-270.NG_057601.1	1	0	.	.	inhibitor-resistant class C beta-lactamase PDC-270
 blaPDC-245.NG_056400.1	1	0	.	.	inhibitor-resistant class C beta-lactamase PDC-245
-blaPAC-1.NG_052627.1	1	0	.	.	inhibitior-resistant cephalosporin-hydrolyzing class C beta-lactamase PAC-1
 blaPFM-2.NG_067160.1	1	0	.	.	subclass B2 metallo-beta-lactamase PFM-2
 mphK.NG_065846.1	1	0	.	.	macrolide 2'-phosphotransferase MphK
 dfrA18.NG_047673.1	1	0	.	.	trimethoprim-resistant dihydrofolate reductase DfrA18
@@ -4061,7 +4517,6 @@ blaVIM-56.NG_056405.1	1	0	.	.	subclass B1 metallo-beta-lactamase VIM-56
 blaPDC-248.NG_056403.1	1	0	.	.	class C beta-lactamase PDC-248
 blaPDC-247.NG_056402.1	1	0	.	.	class C beta-lactamase PDC-247
 blaPDC-246.NG_056401.1	1	0	.	.	class C beta-lactamase PDC-246
-blaPDC-244.NG_056399.1	1	0	.	.	class C beta-lactamase PDC-244
 blaPDC-242.NG_056397.1	1	0	.	.	class C beta-lactamase PDC-242
 blaPDC-241.NG_056396.1	1	0	.	.	class C beta-lactamase PDC-241
 blaPDC-240.NG_056395.1	1	0	.	.	class C beta-lactamase PDC-240
@@ -4134,7 +4589,6 @@ lnu(F).NG_047927.1	1	0	.	.	lincosamide nucleotidyltransferase Lnu(F)
 aac(6')-IIa.NG_047270.1	1	0	.	.	aminoglycoside N-acetyltransferase AAC(6')-IIa
 blaPDC-226.NG_056104.1	1	0	.	.	class C beta-lactamase PDC-226
 blaPDC-225.NG_056103.1	1	0	.	.	class C beta-lactamase PDC-225
-aadD1.NG_056101.1	1	0	.	.	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia
 bla2.NG_056058.1	1	0	.	.	BcII family subclass B1 metallo-beta-lactamase
 blaOXA-535.NG_056053.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-535
 vgbC.NG_056050.1	1	0	.	.	streptogramin B lyase Vgb(C)
@@ -4165,7 +4619,6 @@ blaACT-54.NG_055670.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase A
 blaACC-7.NG_055669.1	1	0	.	.	cephalosporin-hydrolyzing class C beta-lactamase ACC-7
 blaOXA-567.NG_055666.1	1	0	.	.	OXA-48 family class D beta-lactamase OXA-567
 blaNDM-21.NG_055664.1	1	0	.	.	subclass B1 metallo-beta-lactamase NDM-21
-vatI.NG_055656.1	1	0	.	.	streptogramin A O-acetyltransferase Vat(I)
 catU.NG_055655.1	1	0	.	.	type A chloramphenicol O-acetyltransferase
 blaOXA-368.NG_055653.1	1	0	.	.	OXA-10 family class D beta-lactamase OXA-368
 mecI.NG_055650.1	1	0	.	.	mecA-type methicillin resistance repressor MecI
@@ -4308,7 +4761,6 @@ blaPDC-195.NG_054981.1	1	0	.	.	class C beta-lactamase PDC-195
 blaPDC-194.NG_054980.1	1	0	.	.	class C beta-lactamase PDC-194
 blaPDC-193.NG_054979.1	1	0	.	.	class C beta-lactamase PDC-193
 blaPDC-192.NG_054978.1	1	0	.	.	class C beta-lactamase PDC-192
-blaPDC-191.NG_054977.1	1	0	.	.	class C beta-lactamase PDC-191
 blaPDC-190.NG_054976.1	1	0	.	.	class C beta-lactamase PDC-190
 blaPDC-189.NG_054975.1	1	0	.	.	class C beta-lactamase PDC-189
 blaPDC-188.NG_054974.1	1	0	.	.	class C beta-lactamase PDC-188
@@ -4458,7 +4910,6 @@ aph(6).NG_047425.1	1	0	.	.	APH(6) family putative aminoglycoside O-phosphotransf
 aph(3')-IIa.NG_047417.1	1	0	.	.	aminoglycoside O-phosphotransferase APH(3')-IIa
 aadD2.NG_047392.1	1	0	.	.	aminoglycoside O-nucleotidyltransferase ANT(4')-Ib
 blaSRT.NG_047384.1	1	0	.	.	SRT/SST family class C beta-lactamase
-aadD1.NG_047375.1	1	0	.	.	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia
 aadD1.NG_047374.1	1	0	.	.	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia
 aadD1.NG_047373.1	1	0	.	.	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia
 aacA43.NG_047321.1	1	0	.	.	AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase AacA43
@@ -5253,7 +5704,6 @@ blaTEM-156.NG_050200.1	1	0	.	.	class A beta-lactamase TEM-156
 blaTEM-150.NG_050194.1	1	0	.	.	class A beta-lactamase TEM-150
 blaTEM-148.NG_050191.1	1	0	.	.	class A beta-lactamase TEM-148
 blaTEM-146.NG_050189.1	1	0	.	.	class A beta-lactamase TEM-146
-blaTEM-142.NG_050185.1	1	0	.	.	class A beta-lactamase TEM-142
 blaTEM-111.NG_050157.1	1	0	.	.	class A beta-lactamase TEM-111
 blaTEM-108.NG_050153.1	1	0	.	.	class A beta-lactamase TEM-108
 blaTEM-105.NG_050150.1	1	0	.	.	class A beta-lactamase TEM-105
@@ -5340,7 +5790,6 @@ blaPDC-52.NG_049926.1	1	0	.	.	class C beta-lactamase PDC-52
 blaPDC-51.NG_049925.1	1	0	.	.	class C beta-lactamase PDC-51
 blaPDC-49.NG_049922.1	1	0	.	.	class C beta-lactamase PDC-49
 blaPDC-48.NG_049921.1	1	0	.	.	class C beta-lactamase PDC-48
-blaPDC-47.NG_049920.1	1	0	.	.	class C beta-lactamase PDC-47
 blaPDC-46.NG_049919.1	1	0	.	.	class C beta-lactamase PDC-46
 blaPDC-45.NG_049918.1	1	0	.	.	class C beta-lactamase PDC-45
 blaPDC-43.NG_049916.1	1	0	.	.	class C beta-lactamase PDC-43
@@ -5807,7 +6256,6 @@ blaKPC-19.NG_049252.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-
 blaKPC-18.NG_049251.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-18
 blaKPC-17.NG_049250.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-17
 blaKPC-16.NG_049249.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-16
-blaKPC-15.NG_049248.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-15
 blaKPC-13.NG_049246.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-13
 blaKPC-11.NG_049244.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-11
 blaKPC-10.NG_049243.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase KPC-10
@@ -5907,7 +6355,6 @@ blaGOB-1.NG_049145.1	1	0	.	.	subclass B3 metallo-beta-lactamase GOB-1
 blaGIM-2.NG_049144.1	1	0	.	.	subclass B1 metallo-beta-lactamase GIM-2
 blaGIM-1.NG_049143.1	1	0	.	.	subclass B1 metallo-beta-lactamase GIM-1
 blaGES-5.NG_049137.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-5
-blaGES-4.NG_049136.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-4
 blaGES-29.NG_049132.1	1	0	.	.	class A beta-lactamase GES-29
 blaGES-27.NG_049130.1	1	0	.	.	class A beta-lactamase GES-27
 blaGES-24.NG_049127.1	1	0	.	.	carbapenem-hydrolyzing class A beta-lactamase GES-24
@@ -6841,7 +7288,6 @@ blaTHIN-B.NG_047549.1	1	0	.	.	subclass B3 metallo-beta-lactamase THIN-B
 blaSRT.NG_047548.1	1	0	.	.	SRT/SST family class C beta-lactamase
 blaSRT.NG_047547.1	1	0	.	.	SRT/SST family class C beta-lactamase
 blaSRT.NG_047546.1	1	0	.	.	SRT/SST family class C beta-lactamase
-blaSED.NG_047543.1	1	0	.	.	SED family class A beta-lactamase
 blaS.NG_047542.1	1	0	.	.	class A beta-lactamase
 blaR39.NG_047541.1	1	0	.	.	class A beta-lactamase
 blaR1.NG_047540.1	1	0	.	.	BlaR1 family beta-lactam sensor/signal transducer

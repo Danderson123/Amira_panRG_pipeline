@@ -1,13 +1,13 @@
-training_assembly_directory: data/reference_assemblies
+training_assembly_directory: data/reference_assemblies/Escherichia_coli
 testing_assembly_directory: data/test_assemblies
 output_directory: Escherichia_coli_panRG
 threads: 24
 skip_poppunk: True
 poppunk_db_path: data/poppunk_databases/escherichia_coli_v2_refs
 plasmid_genes_path: data/reference_genes/mob_suite_genes.fasta
-bakta_db_path: data/bakta_db
+bakta_db_path: /nfs/research/zi/dander/helper_scripts/bakta_db
 ariba_path: software/ariba.simg
 panaroo:
-    identity: 0.8
+    identity: 0.7
     len_dif_percent: 0
     length_outlier_support_proportion: 0.1

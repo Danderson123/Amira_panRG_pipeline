@@ -22,7 +22,8 @@ rule all:
         os.path.join(output_dir, "AMR_supplemented_panRG.k15.w5.panidx.zip"),
         os.path.join(output_dir, "AMR_gene_headers_unified.txt"),
         os.path.join(output_dir, "AMR_alleles_unified.fa"),
-        os.path.join(output_dir, "core_genes.txt")
+        os.path.join(output_dir, "core_genes.txt"),
+        os.path.join(output_dir, "plasmid_genes.txt")
 
 
 rule create_poppunk_input:
@@ -515,7 +516,7 @@ rule build_pandora_index:
         os.path.join(output_dir, "AMR_supplemented_panRG.k15.w5.panidx.zip")
     threads: 16
     resources:
-        mem_mb=lambda wildcards, attempt: 30000 * attempt, threads=16
+        mem_mb=lambda wildcards, attempt: 60000 * attempt, threads=16, runtime=7200
     params:
         pandora="software/pandora-linux-precompiled-v0.12.0-alpha.0",
         kmer_size=15,
@@ -629,3 +630,23 @@ rule list_core_genes:
                 core_genes.add(os.path.basename(a).replace(".fasta", ""))
         with open(output[0], "w") as o:
             o.write("\n".join(list(core_genes)))
+
+rule list_plasmid_only_genes:
+    input:
+        alignments=get_processed_files
+    output:
+        os.path.join(output_dir, "plasmid_genes.txt")
+    threads: 1
+    resources:
+        mem_mb=lambda wildcards, attempt: 10000, threads=1
+    run:
+        plasmid_genes = set()
+        for a in tqdm(input.alignments):
+            reader = pyfastaq.sequences.file_reader(a)
+            samples_with_gene = set()
+            for sequence in reader:
+                samples_with_gene.add(str(sequence.id.split(";")[0]))
+            if all("plasmid_alleles" in h for h in samples_with_gene):
+                plasmid_genes.add(os.path.basename(a).replace(".fasta", ""))
+        with open(output[0], "w") as o:
+            o.write("\n".join(list(plasmid_genes)))
