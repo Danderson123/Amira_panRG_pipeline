@@ -224,46 +224,9 @@ def get_bakta_files(wildcards):
     checkpoint_output = checkpoints.subsample_by_poppunk_cluster.get(**wildcards).output[0]
     return expand(os.path.join(output_dir, "bakta_annotated_assemblies", "{sample}"), sample=[os.path.basename(f).replace(".fa", "") for f in glob.glob(os.path.join(checkpoint_output, "*.fa*"))])
 
-rule remove_test_annotations:
-    input:
-        get_bakta_files
-    output:
-        touch(os.path.join(output_dir, "annotations_removed.done"))
-    params:
-        test_dir=config["testing_assembly_directory"]
-    run:
-        # list all gff files output by bakta
-        gff_files = [f for f in glob.glob(os.path.join(os.path.dirname(input[0]), "*", "*.gff*")) + [input[-1]] if "edited" not in f]
-        # list the names of the test samples
-        test_samples = [os.path.basename(f).replace(".fa", "") for f in glob.glob(os.path.join(params.test_dir, "*"))]
-        for g in tqdm(gff_files):
-            for t in test_samples:
-                if t in g:
-                    print(g)
-                    with open(g) as i:
-                        features, sequence = i.read().split("##FASTA")
-                    new_features = []
-                    for l in features.split("\n"):
-                        if l == "" or l == "\n":
-                            continue
-                        if l.startswith("#") or "CDS" not in l:
-                            new_features.append(l)
-                        else:
-                            contig, source, cat, start, end, dot1, strand, dot2, annotations = l.split("\t")
-                            split_annotations = annotations.split(";")
-                            new_split_annotations = []
-                            for i in split_annotations:
-                                if "Name=" in i or "gene=" in i:
-                                    continue
-                                new_split_annotations.append(i)
-                            new_features.append(f"{contig}\t{source}\t{cat}\t{start}\t{end}\t{dot1}\t{strand}\t{dot2}\t{';'.join(new_split_annotations)}")
-                    with open(g, "w") as o:
-                        o.write("\n".join(new_features + ["##FASTA", sequence]))
-
 rule remove_short_annotations:
     input:
         get_bakta_files,
-        rules.remove_test_annotations.output,
     output:
         touch(os.path.join(output_dir, "short_alleles_removed.done"))
     run:
@@ -293,7 +256,6 @@ rule list_bakta_gffs:
     input:
         get_bakta_files,
         rules.make_AMR_gff.output,
-        rules.remove_test_annotations.output,
         rules.remove_short_annotations.output,
         rules.make_plasmid_gene_gff.output
     output:
