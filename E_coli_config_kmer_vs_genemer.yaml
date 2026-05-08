@@ -1,6 +1,6 @@
-training_assembly_directory: data/reference_assemblies/Escherichia_coli
+training_assembly_directory: /hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/E_coli_kmer_vs_genemer
 testing_assembly_directory: data/test_assemblies
-output_directory: Escherichia_coli_panRG_thesis
+output_directory: Escherichia_coli_panRG_kmer_vs_genemer
 threads: 24
 skip_poppunk: True
 poppunk_db_path: data/poppunk_databases/escherichia_coli_v2_refs

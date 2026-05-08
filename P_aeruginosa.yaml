@@ -1,12 +1,11 @@
-training_assembly_directory: data/reference_assemblies/Escherichia_coli
+training_assembly_directory: data/reference_assemblies/P_aeruginosa
 testing_assembly_directory: data/test_assemblies
-output_directory: Escherichia_coli_panRG_thesis
+output_directory: Pseudomonas_aeruginosa_panRG_thesis
 threads: 24
 skip_poppunk: True
-poppunk_db_path: data/poppunk_databases/escherichia_coli_v2_refs
+poppunk_db_path: data/poppunk_databases/pa_v1_refs
 plasmid_genes_path: data/reference_genes/mob_suite_genes.fasta
 bakta_db_path: /nfs/research/zi/dander/helper_scripts/bakta_db
-
 ariba_path: software/ariba.simg
 panaroo:
     identity: 0.8

@@ -57,12 +57,12 @@ rule run_poppunk:
     threads: config["threads"]
     resources:
         mem_mb=lambda wildcards, attempt: 30000 * attempt
-    conda:
-        "envs/poppunk.yaml"
+    #conda:
+    #    "envs/poppunk.yaml"
     shell:
         """
         if [ {params.skip_poppunk} != "True" ] && [ {params.skip_poppunk} != True ]; then
-            poppunk_assign --run-qc --serial --max-zero-dist 1 --serial --write-references --max-merge 0 --db {params.poppunk_database} --query {input} --output {output} --threads {threads}
+            singularity run poppunk.img poppunk_assign --run-qc --serial --max-zero-dist 1 --serial --write-references --max-merge 0 --db {params.poppunk_database} --query {input} --output {output} --threads {threads}
         else
             mkdir -p {output}
         fi
@@ -211,10 +211,12 @@ rule run_bakta:
     threads: 1
     resources:
         mem_mb=lambda wildcards, attempt: 20000 * attempt, threads=1
-    conda:
-        "envs/bakta.yaml"
+    #conda:
+    #    "envs/bakta.yaml"
     shell:
-        "bakta --db {params.bakta_db} --threads {threads} --output {output} {input}"
+        "singularity run /hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/software/bakta.img bakta --skip-trna --skip-tmrna --skip-rrna --skip-ncrna --skip-crispr --skip-plot --skip-sorf --skip-pseudo --skip-ncrna-region  --db {params.bakta_db} --threads {threads} --output {output} {input}"    #run:
+    #    infile = os.path.join("/hps/nobackup/iqbal/dander/amira_panRG_pipeline/Escherichia_coli_panRG_plasmid_genes/bakta_annotated_assemblies", os.path.basename(output[0]))
+    #    shell(f"mkdir -p {output} && cp -R {infile}/* {output}")
 
 def get_samples():
     # This function should return a list of all samples that are processed by 'run_bakta'
@@ -224,9 +226,46 @@ def get_bakta_files(wildcards):
     checkpoint_output = checkpoints.subsample_by_poppunk_cluster.get(**wildcards).output[0]
     return expand(os.path.join(output_dir, "bakta_annotated_assemblies", "{sample}"), sample=[os.path.basename(f).replace(".fa", "") for f in glob.glob(os.path.join(checkpoint_output, "*.fa*"))])
 
+rule remove_test_annotations:
+    input:
+        get_bakta_files
+    output:
+        touch(os.path.join(output_dir, "annotations_removed.done"))
+    params:
+        test_dir=config["testing_assembly_directory"]
+    run:
+        # list all gff files output by bakta
+        gff_files = [f for f in glob.glob(os.path.join(os.path.dirname(input[0]), "*", "*.gff*")) + [input[-1]] if "edited" not in f]
+        # list the names of the test samples
+        test_samples = [os.path.basename(f).replace(".fa", "") for f in glob.glob(os.path.join(params.test_dir, "*"))]
+        for g in tqdm(gff_files):
+            for t in test_samples:
+                if t in g:
+                    print(g)
+                    with open(g) as i:
+                        features, sequence = i.read().split("##FASTA")
+                    new_features = []
+                    for l in features.split("\n"):
+                        if l == "" or l == "\n":
+                            continue
+                        if l.startswith("#") or "CDS" not in l:
+                            new_features.append(l)
+                        else:
+                            contig, source, cat, start, end, dot1, strand, dot2, annotations = l.split("\t")
+                            split_annotations = annotations.split(";")
+                            new_split_annotations = []
+                            for i in split_annotations:
+                                if "Name=" in i or "gene=" in i:
+                                    continue
+                                new_split_annotations.append(i)
+                            new_features.append(f"{contig}\t{source}\t{cat}\t{start}\t{end}\t{dot1}\t{strand}\t{dot2}\t{';'.join(new_split_annotations)}")
+                    with open(g, "w") as o:
+                        o.write("\n".join(new_features + ["##FASTA", sequence]))
+
 rule remove_short_annotations:
     input:
         get_bakta_files,
+        rules.remove_test_annotations.output,
     output:
         touch(os.path.join(output_dir, "short_alleles_removed.done"))
     run:
@@ -243,7 +282,7 @@ rule remove_short_annotations:
                     new_features.append(l)
                 else:
                     contig, source, cat, start, end, dot1, strand, dot2, annotations = l.split("\t")
-                    if int(end) - int(start) > 249:
+                    if int(end) - int(start) > 0:
                         new_features.append(f"{contig}\t{source}\t{cat}\t{start}\t{end}\t{dot1}\t{strand}\t{dot2}\t{annotations}")
             new_sequence = []
             for l in sequence.split("\n"):
@@ -256,6 +295,7 @@ rule list_bakta_gffs:
     input:
         get_bakta_files,
         rules.make_AMR_gff.output,
+        rules.remove_test_annotations.output,
         rules.remove_short_annotations.output,
         rules.make_plasmid_gene_gff.output
     output:
@@ -279,10 +319,10 @@ rule run_panaroo:
     threads: config["threads"]
     resources:
 	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"]
-    conda:
-        "envs/panaroo.yaml"
+    #conda:
+    #    "envs/panaroo.yaml"
     shell:
-        "panaroo --clean-mode sensitive --refind-mode off --remove-invalid-genes -c {params.identity} --len_dif_percent {params.len_dif_percent} --length_outlier_support_proportion {params.length_outlier_support_proportion} --merge_paralogs -i {input} -o {output} --threads {threads}"
+        "singularity run /hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/software/panaroo.img panaroo --clean-mode sensitive --refind-mode off --remove-invalid-genes -c {params.identity} --len_dif_percent {params.len_dif_percent} --length_outlier_support_proportion {params.length_outlier_support_proportion} --merge_paralogs -i {input} -o {output} --threads {threads}"
 
 rule get_panaroo_alignments:
     input:
@@ -290,12 +330,19 @@ rule get_panaroo_alignments:
     output:
         touch(os.path.join(output_dir, "panaroo_alignments.done"))
     threads: config["threads"]
-    conda:
-        "envs/panaroo.yaml"
+    #conda:
+    #    "envs/panaroo.yaml"
     resources:
-	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"]
-    shell:
-        "panaroo-msa -o {input} -a pan --aligner mafft -t {threads}"
+	    mem_mb=lambda wildcards, attempt: 40000 * attempt, threads=config["threads"], runtime=7200
+    run:
+        outdir = "/hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/metagenome_panRG_thesis/panaroo_output/aligned_gene_sequences"
+        if not os.path.exists(outdir):
+            os.mkdir(outdir)
+        for f in tqdm(glob.glob("/hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/metagenome_panRG_thesis/panaroo_output/failed_aligned_gene_sequences/*")):
+            command = f"cp {f} {outdir}"
+            shell(command)
+    #shell:
+    #    "singularity run /hps/nobackup/iqbal/dander/Amira_panRG_pipeline_test/software/panaroo.img panaroo-msa -o {input} -a pan --aligner mafft -t {threads}"
 
 checkpoint qc_panaroo_alignments:
     input:
@@ -366,8 +413,9 @@ checkpoint qc_panaroo_alignments:
                 if cluster_id in transposase_genes:
                     continue
                 if len(sequence.seq) % 3 == 0 and "*" not in sequence.translate()[:-1]:
-                    if not len(sequence.seq) > 249:
-                        continue
+                    if ("AMR_alleles" not in sequence.id or "plasmid_alleles" not in sequence.id):
+                        if not len(sequence.seq) > 399:
+                            continue
                     alleles[a].append(f">{sequence.id}\n{sequence.seq}")
                     lengths[a].append(len(sequence.seq))
                     if cluster_id in gene_ids:
@@ -478,7 +526,7 @@ rule build_pandora_index:
         os.path.join(output_dir, "AMR_supplemented_panRG.k15.w5.panidx.zip")
     threads: 16
     resources:
-        mem_mb=lambda wildcards, attempt: 60000 * attempt, threads=16, runtime=7200
+        mem_mb=lambda wildcards, attempt: 60000 * attempt, threads=16, runtime=15000
     params:
         pandora="software/pandora-linux-precompiled-v0.12.0-alpha.0",
         kmer_size=15,
